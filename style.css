@@ -10,9 +10,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #007BFF, #FFD700, #FF0080, #00FFB2);
-  background-image: url(fondo.jpg);
+  background-image: url('fondo.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 
 
 .container {
@@ -97,4 +100,5 @@ h1 {
   background: #00cc8f;
   transform: scale(1.05);
 }
+
 
